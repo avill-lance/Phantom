@@ -1,0 +1,94 @@
+> @php artisan config:clear --ansi
+
+  [37;44m INFO [39;49m Configuration cache cleared successfully.  
+
+> @php artisan test
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Unit\ExampleTest[39m
+  [32;1m✓[39;22m[90m [39m[90mthat true is true[39m
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Feature\Auth\AuthenticationTest[39m
+  [32;1m✓[39;22m[90m [39m[90mlogin screen can be rendered[39m[90m                                        [39m [90m0.64s[39m  
+  [32;1m✓[39;22m[90m [39m[90musers can authenticate using the login screen[39m[90m                       [39m [90m0.12s[39m  
+  [32;1m✓[39;22m[90m [39m[90musers can not authenticate with invalid password[39m[90m                    [39m [90m0.26s[39m  
+  [32;1m✓[39;22m[90m [39m[90musers can logout[39m[90m                                                    [39m [90m0.03s[39m  
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Feature\Auth\EmailVerificationTest[39m
+  [32;1m✓[39;22m[90m [39m[90memail verification screen can be rendered[39m[90m                           [39m [90m0.03s[39m  
+  [32;1m✓[39;22m[90m [39m[90memail can be verified[39m[90m                                               [39m [90m0.03s[39m  
+  [32;1m✓[39;22m[90m [39m[90memail is not verified with invalid hash[39m[90m                             [39m [90m0.03s[39m  
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Feature\Auth\PasswordConfirmationTest[39m
+  [32;1m✓[39;22m[90m [39m[90mconfirm password screen can be rendered[39m[90m                             [39m [90m0.03s[39m  
+  [32;1m✓[39;22m[90m [39m[90mpassword can be confirmed[39m[90m                                           [39m [90m0.03s[39m  
+  [32;1m✓[39;22m[90m [39m[90mpassword is not confirmed with invalid password[39m[90m                     [39m [90m0.23s[39m  
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Feature\Auth\PasswordResetTest[39m
+  [32;1m✓[39;22m[90m [39m[90mreset password link screen can be rendered[39m[90m                          [39m [90m0.02s[39m  
+  [32;1m✓[39;22m[90m [39m[90mreset password link can be requested[39m[90m                                [39m [90m0.24s[39m  
+  [32;1m✓[39;22m[90m [39m[90mreset password screen can be rendered[39m[90m                               [39m [90m0.24s[39m  
+  [32;1m✓[39;22m[90m [39m[90mpassword can be reset with valid token[39m[90m                              [39m [90m0.25s[39m  
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Feature\Auth\PasswordUpdateTest[39m
+  [32;1m✓[39;22m[90m [39m[90mpassword can be updated[39m[90m                                             [39m [90m0.05s[39m  
+  [32;1m✓[39;22m[90m [39m[90mcorrect password must be provided to update password[39m[90m                [39m [90m0.03s[39m  
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Feature\Auth\RegistrationTest[39m
+  [32;1m✓[39;22m[90m [39m[90mregistration screen can be rendered[39m[90m                                 [39m [90m0.03s[39m  
+  [32;1m✓[39;22m[90m [39m[90mnew users can register[39m[90m                                              [39m [90m0.02s[39m  
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Feature\ExampleTest[39m
+  [32;1m✓[39;22m[90m [39m[90mthe application returns a successful response[39m[90m                       [39m [90m0.02s[39m  
+"""
+<!DOCTYPE html>\n
+<html lang="en">\n
+<head>\n
+    <meta charset="utf-8">\n
+    <meta name="viewport" content="width=device-width, initial-scale=1">\n
+    <title>Shopping Cart - Phantom</title>\n
+    <link rel="preload" as="style" href="http://localhost:8000/build/assets/app-DciKFhTV.css" /><link rel="modulepreload" as="script" href="http://localhost:8000/build/assets/app-Co-7HB2c.js" /><link rel="stylesheet" href="http://localhost:8000/build/assets/app-DciKFhTV.css" /><script type="module" src="http://localhost:8000/build/assets/app-Co-7HB2c.js"></script></head>\n
+<body class="font-sans antialiased">\n
+    <div class="min-h-screen bg-gray-50">\n
+        <!-- Header -->\n
+        <header class="bg-white shadow">\n
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">\n
+                <div class="flex justify-between h-16">\n
+                    <div class="flex">\n
+                        <div class="flex-shrink-0 flex items-center">\n
+                            <h1 class="text-xl font-semibold text-gray-900">Phantom Clothing</h1>\n
+                        </div>\n
+                        <div class="hidden md:block">\n
+                            <div class="ml-10 flex items-baseline space-x-4">\n
+                                <a href="http://localhost:8000/products" class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Products</a>\n
+                                <a href="http://localhost:8000/cart" class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">\n
+                                    Cart\n
+                                                                            <span class="ml-1 inline-flex h-5 w-5 items-center justify-center bg-indigo-600 rounded-full text-xs font-medium text-white">1</span>\n
+                                                                    </a>\n
+                            </div>\n
+                        </div>\n
+                    </div>\n
+                    <div class="flex items-center">\n
+                                            </div>\n
+                </div>\n
+            </div>\n
+        </header>\n
+\n
+        <main>\n
+            <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">\n
+                <div class="px-4 py-6 sm:px-0">\n
+                                        \n
+                    \n
+                                            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">\n
+                            <div class="p-6">\n
+                                <h2 class="text-2xl font-bold text-gray-900 mb-4">Shopping Cart</h2>\n
+                            </div>\n
+                        </div>\n
+                                    </div>\n
+            </div>\n
+        </main>\n
+    </div>\n
+</body>\n
+</html>
+""" // tests/Feature/ProductCartTest.php:85
+Fatal error: Premature end of PHP process when running Tests\Feature\ProductCartTest::test_user_can_view_cart.
+Script @php artisan test handling the test event returned with error code 2
