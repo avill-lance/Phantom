@@ -132,7 +132,7 @@ The Phantom project is a web application for a clothing line business, enabling 
     - Data exportable (CSV/Excel) option
 
 **Module 4: Administration & User Management**
-- [ ] Build admin dashboard for user/role management
+- [x] Build admin dashboard for user/role management
   - Time Estimate: 6 hours
   - Dependencies: Authentication and authorization
   - Acceptance Criteria:
